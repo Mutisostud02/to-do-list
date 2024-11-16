@@ -9,4 +9,5 @@ function ToDoList () {
 }
 
 export const createToDo = ToDoList();
-const projects = ["default"];
+
+export const defaultPro = [];
