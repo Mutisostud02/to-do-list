@@ -1,4 +1,4 @@
-function ToDoList () {
+export function ToDoList () {
     const title = ""
     const description = ""
     const dueDate = "";
@@ -8,6 +8,6 @@ function ToDoList () {
     return {title, description, dueDate, priority, notes, checkList};
 }
 
-export const createToDo = ToDoList();
+const createToDo = ToDoList();
 
 export const defaultPro = [];
