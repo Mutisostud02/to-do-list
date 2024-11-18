@@ -85,8 +85,10 @@ form {
   .form {
     display: block;
     transform: translateY(-10%) scale(1);
-
-    
+  }
+  .formOut {
+    display: none;
+    transform: scale(0) translateY(-120%);
   }
   label {
     display: block;
@@ -130,5 +132,5 @@ form {
     cursor: pointer;
   }
   #submit:hover {
-    background-color: #45a049;
+    background-color: #0be016;
   }
