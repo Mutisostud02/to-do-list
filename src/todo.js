@@ -8,6 +8,5 @@ export function ToDoList () {
     return {title, description, dueDate, priority, notes, checkList};
 }
 
-const createToDo = ToDoList();
 
 export const defaultPro = [];
