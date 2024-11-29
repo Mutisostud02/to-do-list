@@ -84,7 +84,7 @@ form {
   }
   .form {
     display: block;
-    transform: translateY(-10%) scale(1);
+    transform: translateY(-20%) scale(1);
   }
   .formOut {
     display: none;
@@ -95,7 +95,7 @@ form {
     margin-top: 15px;
     font-weight: bold;
   }
-  input[type="text"], textarea {
+  input[type="text"] {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -117,9 +117,7 @@ form {
     margin-right: 15px;
     font-weight: normal;
   }
-  textarea {
-    height: 100px;
-  }
+ 
   #submit {
     display: block;
     width: 100%;
@@ -133,4 +131,19 @@ form {
   }
   #submit:hover {
     background-color: #0be016;
+  }
+
+
+  .toDoList {
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+  }
+  .todoItems {
+    width:200px;
+    background-color: pink;
+    color: rgb(36, 148, 223);
+    padding:2rem;
+    margin-bottom:2px;
+    border-radius: 5px;
   }
